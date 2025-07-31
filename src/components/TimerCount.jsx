@@ -11,7 +11,7 @@ export default function TimerCount() {
         // return() => {
         //     clearTimeout(timeout);
         // };
-    }, [count])
+    }, [])
 
     return(
         <div>

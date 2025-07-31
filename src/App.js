@@ -1,9 +1,9 @@
 import React from 'react'
 import ConsoleLog from './components/ConsoleLog'
 import TimerCount from './components/TimerCount'
-import DelayedMessage from './components/DelayedMessage'
 import IntervelCount from './components/IntervalCount'
 import WindowResize from './components/WindowResize'
+import SocialMediaButton from './components/SocialMediaButtons'
 
 const App = () => {
   return (
@@ -11,8 +11,8 @@ const App = () => {
       <ConsoleLog />
       <TimerCount />
       <IntervelCount />
-      <DelayedMessage />
       <WindowResize />
+      <SocialMediaButton />
     </div>
   )
 }

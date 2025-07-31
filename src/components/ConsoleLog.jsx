@@ -3,9 +3,9 @@ import { useState, useEffect } from "react";
 export default function ConsoleLog() {
     const[text, settext] = useState("");
 
-    useEffect(() => {
-        console.log("name is", text)
-    }, [text])
+    // useEffect(() => {
+    //     console.log("name is", text)
+    // }, [text])
 
     return(
         <div>

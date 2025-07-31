@@ -3,6 +3,7 @@ import ConsoleLog from './components/ConsoleLog'
 import TimerCount from './components/TimerCount'
 import DelayedMessage from './components/DelayedMessage'
 import IntervelCount from './components/IntervalCount'
+import WindowResize from './components/WindowResize'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <TimerCount />
       <IntervelCount />
       <DelayedMessage />
+      <WindowResize />
     </div>
   )
 }

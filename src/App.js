@@ -3,7 +3,7 @@ import ConsoleLog from './components/ConsoleLog'
 import TimerCount from './components/TimerCount'
 import IntervelCount from './components/IntervalCount'
 import WindowResize from './components/WindowResize'
-import SocialMediaButton from './components/SocialMediaButtons'
+import SampleData from './components/SampleData'
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <TimerCount />
       <IntervelCount />
       <WindowResize />
-      <SocialMediaButton />
+      <SampleData />
     </div>
   )
 }
